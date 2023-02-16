@@ -1,10 +1,10 @@
 #include	<stdio.h>
 /**
-*main - print the sizes of various data types
+* main - entry point
 *
-*Return should always be 0
+* Return: 0
 */
-int	main(void)
+int main(void)
 {
 	char a;
 	int b;
