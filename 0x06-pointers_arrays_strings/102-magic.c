@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-* main - prints the answer followed by a new line
+* main - prints the answer followed by a new line.
 * Return: 0 Always success
 */
 int main(void)
