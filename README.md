@@ -1,1 +1,1 @@
-c - introductory project
+c - introductory projects
