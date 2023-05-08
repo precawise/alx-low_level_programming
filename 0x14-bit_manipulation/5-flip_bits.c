@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * flips_bit - Return the number of bits that ar needed to be flipped
+ * flip_bits - Return the number of bits that ar needed to be flipped
  * @n: type unsigned long int input pointer
  * @m: type unsigned long int position of unit
  * Return: flipped_bit
  */
-unsigned int flips_bit(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int or;
 	unsigned int flip_bit;
