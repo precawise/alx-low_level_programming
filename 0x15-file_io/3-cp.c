@@ -24,15 +24,9 @@ void error_file(int file_from, int file_to, char *argv[])
 
 /**
  * main - Copies contents of a file to another file.
- * @argc: Number of arguments supplied to program.
- * @argv: Array of pointers to arguments.
- *
- * Return: 0 success.
- *
- * Description: If argument count is incorrect - exit 97.
- * If file_from does not exist,cannot be read - exit 98.
- * If file_to cannot be created, written to - exit 99.
- * If file_to or file_from cannot be closed - exit 100.
+ * @argc: number of arguments.
+ * @argv: arguments vector.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
